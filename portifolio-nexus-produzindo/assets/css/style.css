@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color: transparent;
+}
+/*Como saber o tamanho dos containers?*/
+header .container{
+    max-width: 1575px;
+    margin: 0 auto; 
+}
+
+.container{
+    max-width: 1499px;  
+    margin: 0 auto;
+}
+/*Posso organizar o CSS deste modo*/
+header .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo-text{
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+header .logo{
+    max-width: 84px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+}
+
+header .title-logo{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 70px;
+    letter-spacing: 4%;
+    color: #000000;
+}
+/*No site há um margin nos elementos do link de 70px, o gap tem que ser o mesmo valor?*/
+/*Acho que a divisão dos elementos não está igual ao wireframe*/
+/* Tem uma maneira de colocar hover com cores diferentes sem ficar trocando a classe?*/
+header .navegation-links{
+    display: inline-flex;
+    margin-top: 74px;
+    gap: 70px;
+}
+
+header .link{
+    font-family: 'Lato', sans-serif;;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .shopping-cart{
+    max-width: 44px;
+    max-height: 39px;
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+}
+
+main .div-laptop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 186px ;
+}
+
+.laptop-text{
+    margin-left: 164px;
+}
+
+.laptop-text .title-laptops{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    background: linear-gradient(90deg, #9B77E7 0%, #1600A0 81.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.laptop-text .laptop-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #747474;
+    display: block;
+    max-width: 476px; 
+}
+/*botões estão quebrando e site não está responsivo*/
+.laptop-text .button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    padding: 21px 48px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #9B77E7 0%, #1600A0 81.44%) 1;
+    display: inline-flex;
+    margin: 72px 20px 0px 0px       ;
+}
+
+.laptop-text .button.colorful-button{
+    background: linear-gradient(90deg, #9B77E7 0%, #1600A0 81.44%);
+    color: white;
+    border: none;
+    margin-right: 10px ;
+    transition: 0.5s all;
+}
+
+.laptop-image{
+    max-width: 809px;
+    max-height: 538px;
+    width: auto;
+    height: auto;
+
+}

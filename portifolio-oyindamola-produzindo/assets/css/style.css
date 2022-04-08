@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color: transparent;
+}
+
+body {
+    background-color: #171717;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 28px;
+}
+
+header .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu .link {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s color;
+}
+
+.menu .link:hover {
+    color: #27AE60;
+}
+
+.intro-oyinda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.intro-oyinda .titulo-oyinda {
+   font-family: 'DM Sans', sans-serif;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 62px;
+   color: white;
+}
+
+.intro-oyinda .p-oyinda {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color:#828282;
+    display: block;
+    margin: 9px 0px 35px 0px;
+}
+
+.intro-oyinda .botao{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 34px;
+    border: 1px solid #F2F2F2;
+    display: inline-flex;
+}
+
+.intro-oyinda .botao:hover{
+    border: 1px solid #27AE60;
+    color: #27AE60;
+}
+
+.intro-oyinda .botao.botao-verde{
+    background-color: #27AE60;
+    border: none;
+    margin-right: 10px ;
+    transition: 0.5s all;
+}
+
+.intro-oyinda .botao.botao-verde:hover{
+    background-color:#FFFFFF;
+    color: #27AE60;
+}
+
+.intro-oyinda .borda-branca{ 
+    border: 0.5px solid rgb(197, 197, 197, 0.2);
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.intro-oyinda .img-oyinda{
+    border: 25px solid #202020;
+    border-radius: 50%;
+}
+
+.titulo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: white;
+}
+
+.sobre-oyinda > p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+    max-width: 745px;
+    margin: 38px auto; 
+}
+
+.sobre-oyinda .posicionamento-contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posicionamento-contato .dados-contato{
+    list-style: none;
+}
+
+.dados-contato .bolinha-contato{
+    box-sizing: content-box;
+    display: block;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: #27AE60;
+    margin: 0 auto 18px auto;
+    border: 25px solid #212121;
+}
+
+.dados-contato .titulos-contato{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.dados-contato .textos-contato{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+

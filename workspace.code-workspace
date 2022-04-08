@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Projetos",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso Alura - Html e CSS - Barbearia Alura"
+	}
+}

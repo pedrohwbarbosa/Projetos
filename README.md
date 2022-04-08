@@ -1,3 +1,4 @@
 # Projetos
 
-Intuito de "Projetos" é compartilhar trabalhos e exercícios já feitos
+O objetivo de "Projetos" é compartilhar trabalhos e exercícios em produção ou já concluidos, visando medir minha evolução 
+como desenvolvedor Front-End.
