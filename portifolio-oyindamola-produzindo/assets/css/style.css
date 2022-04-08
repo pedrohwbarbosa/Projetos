@@ -179,3 +179,36 @@ header .logo {
     color: white;
 }
 
+
+.what-i-do .titulo-what-i-do{
+    margin: 120px 0 103px 0;
+}
+.what-i-do .container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.what-i-do .caixa-vetor{
+    background-color: #212121;
+    padding: 35px 70px 36px 50px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.what-i-do .caixa-vetor-verde{
+    border: 1px solid #000000;
+    border-bottom: 2px solid #27AE60;
+}
+
+.what-i-do .texto-caixa{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #535353;
+    margin-top: 30px;
+}
+
